@@ -1,0 +1,174 @@
+
+body{
+  display: block;
+  align-items: center;
+  justify-content: center;
+  background-color: #DF5410;
+  height: 100vh;
+  font-family: "Montserrat", sans-serif;
+}
+
+.container{
+  width: 380px;
+  height: 700px;
+  border-radius: 15px;
+  perspective: 1000px;
+  background-color: #DF5410;
+}
+
+.profile-image{
+  background-image: url("bg-image.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 75px;
+  height: 75px;  
+  border-radius: 50%;
+  border: 3px solid #EC7503;
+  position: relative;
+  top: 12px;
+  left: 14px;
+}
+
+.grb{
+  display: block;
+  position: fixed;
+  top: 12px;
+  right: 15px;
+  font-weight: 700;
+  font-size: 18px;
+  color: navajowhite;
+  text-transform: uppercase;
+  border-bottom: 1px solid navajowhite;
+}
+
+.fswd{
+  display: block;
+  position: fixed;
+  font-weight: 400;
+  font-size: 14px;
+  top: 20px;
+  right: 15px;
+  text-transform: uppercase;
+  color: navajowhite;
+}
+
+.am{
+  display: block;
+  position: fixed;
+  top: 70px;
+  right: 15px;
+  text-transform: uppercase;
+  font-size: 18px;
+  color: navajowhite;
+  text-align: center;
+}
+
+.fa {
+  padding: 10px 20px;
+  display: inline-block;
+  position: relative;
+  width: 2px;
+  font-weight: 400;
+  font-size: 24px;
+  top: 40px;
+  left: -3px;
+  text-transform: uppercase;
+  color: navajowhite;
+  text-align: center;
+  text-decoration: none;
+}
+
+.home{
+  display: block;
+  position: fixed;
+  top: 100px;
+  left: 30px;
+  text-transform: uppercase;
+  font-size: 18px;
+  font-weight: bold;
+  color: navajowhite;
+  text-align: center;
+  text-decoration: none;
+}
+
+a{
+  text-decoration: none;
+  color: navajowhite;
+}
+
+.hr1{
+  border: 1px solid navajowhite;
+  display: inline-block;
+  position: fixed;
+  top: 150px;
+  width: 100%
+}
+
+.textblock{
+  display: flex;
+  position: fixed;
+  top: 155px;
+  text-align: center;
+  color: navajowhite;
+}
+.namaste{
+  position: fixed;
+  top: 155px;
+  color: navajowhite;
+  text-align: center;
+}
+
+p{
+  position: relative;
+  top: 160px;
+  text-align: justify;
+  color: navajowhite;
+}
+
+.special{
+  position: fixed;
+  top: 165px;
+  color: navajowhite;
+  font-weight: bolder;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+.hr2{
+  border: 1px solid navajowhite;
+  display: inline-block;
+  position: fixed;
+  top: 185px;
+  width: 100%
+}
+
+.spec{
+  display: block;
+  position: relative;
+  color: navajowhite;
+  text-decoration: none;
+  top: 115px;
+}
+
+.hr3{
+  border: 1px solid navajowhite;
+  display: inline-block;
+  position: fixed;
+  top: 465px;
+  width: 100%
+}
+
+.prof{
+ display: block;
+ position: fixed;
+ color: navajowhite;
+ text-align: center;
+ top: 480px;
+ width: 100%;
+}
+
+.link{
+  position: fixed;
+  top:1415px;
+}

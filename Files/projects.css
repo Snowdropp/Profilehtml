@@ -1,0 +1,115 @@
+
+body{
+  display: block;
+  align-items: center;
+  justify-content: center;
+  background-color: #DF5410;
+  height: 100vh;
+  font-family: "Montserrat", sans-serif;
+}
+
+.container{
+  width: 380px;
+  height: 700px;
+  border-radius: 15px;
+  perspective: 1000px;
+  background-color: #DF5410;
+}
+
+.profile-image{
+  background-image: url("bg-image.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 75px;
+  height: 75px;  
+  border-radius: 50%;
+  border: 3px solid #EC7503;
+  position: relative;
+  top: 12px;
+  left: 14px;
+}
+
+h3{
+  display: block;
+  position: fixed;
+  top: 12px;
+  right: 15px;
+  font-weight: 700;
+  font-size: 18px;
+  color: navajowhite;
+  text-transform: uppercase;
+  border-bottom: 1px solid navajowhite;
+}
+
+h6{
+  display: block;
+  position: fixed;
+  font-weight: 400;
+  font-size: 14px;
+  top: 20px;
+  right: 15px;
+  text-transform: uppercase;
+  color: navajowhite;
+}
+
+h5{
+  display: block;
+  position: fixed;
+  top: 70px;
+  right: 15px;
+  text-transform: uppercase;
+  font-size: 18px;
+  color: navajowhite;
+  text-align: center;
+}
+
+.fa {
+  padding: 10px 20px;
+  display: inline-block;
+  position: relative;
+  width: 2px;
+  font-weight: 400;
+  font-size: 24px;
+  top: 40px;
+  left: -3px;
+  text-transform: uppercase;
+  color: navajowhite;
+  text-align: center;
+  text-decoration: none;
+}
+
+.slideshow-container{
+  display: block;
+  position: relative;
+  width: 100%;
+  top: 60px;
+}
+
+.home{
+  display: block;
+  position: fixed;
+  top: 100px;
+  left: 30px;
+  text-transform: uppercase;
+  font-size: 18px;
+  font-weight: bold;
+  color: navajowhite;
+  text-align: center;
+  text-decoration: none;
+}
+
+.caption{
+  color: navajowhite;
+  font-weight: bold;
+}
+
+a{
+  text-decoration: none;
+  color: navajowhite;
+}
+
+img{
+  width:100%;
+  height: 200px;
+}
